@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { API, graphqlOperation } from 'aws-amplify';
-import { listUsers } from './graphql/queries';
+import { listUsers } from '../graphql/queries';
 
 const UserList = () => {
   const [users, setUsers] = useState([]);

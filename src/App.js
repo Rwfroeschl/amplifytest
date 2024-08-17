@@ -1,6 +1,5 @@
 import React from 'react';
-import UserList from './Component/userList'; // Adjust the path if necessary
-
+import UserList from './Component/userList'; // Adjust the path if necessar
 const App = () => {
   return (
     <div>
